@@ -42,7 +42,7 @@ app.use(function (err, req, res, next) {
 });
 
 mongoose
-  .connect("APNI INFO DALO", {
+  .connect("mongodb+srv://admin:ira123456@terminalweb.pibx3.mongodb.net/Terminal", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
